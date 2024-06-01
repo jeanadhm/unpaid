@@ -1,0 +1,12 @@
+.carousel-image-container {
+    width: 100%;
+    overflow: hidden; /* Assurez-vous que les images ne débordent pas */
+  }
+  
+  .carousel-image-container img {
+    width: 100%;
+    height: auto;
+    max-height: 350px; /* Ajustez cette valeur pour la hauteur désirée */
+    object-fit: cover; /* Assurez-vous que l'image couvre tout l'espace sans déformer */
+  }
+  
